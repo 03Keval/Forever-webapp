@@ -1,0 +1,533 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Edit-Profile</title>
+
+    <!-- Bootstrap 5 CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/dashboard.css" rel="stylesheet">
+
+
+    <!-- Custome CSS -->
+    <link rel="stylesheet" type="text/css" href="css/custom.css">
+    <link rel="stylesheet" type="text/css" href="css/responsive.css">
+
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+
+</head>
+
+<body>
+    <div id="wrepper" class="forever-bg h-auto pb-4">
+        <span class="screen-darken"></span>
+
+
+        <div class="container">
+            <header class="navbar navbar-dark sticky-top flex-md-nowrap align-item-center">
+                <button data-trigger="navbar_main" class="d-lg-none btn sidebar-btn" type="button">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="col-3">
+                    <div class="sidebar-logo">
+                        <a href="#"><img src="image/Logo.png" alt="Forever-in-love" class="img-fluid"></a>
+                    </div>
+                </div>
+                <div class="col-md-8 col-lg-8 me-auto icons">
+                    <ul id="dynamic" class="nav justify-content-end">
+                        <li class="nav-item"><a href="Edit-Profile.html" class="nav-link"><img src="image/profile.png"
+                                    class="img-fluid" alt="Forever-in-love"></a></li>
+
+                        <li class="nav-item"><a href="Subscription-plan.html" class="nav-link"><img
+                                    src="image/Subscription.png" class="img-fluid" alt="Forever-in-love"></a></li>
+
+                        <li class="nav-item"><a href="Super-Likes.html" class="nav-link"><img
+                                    src="image/super-likes.png" class="img-fluid" alt="Forever-in-love"></a></li>
+
+
+                        <li class="nav-item">
+                            <a class="nav-link" data-bs-toggle="modal" href="#exampleModalToggle-5" role="button"><img
+                                    src="image/notification-bing.png" class="img-fluid" alt="Forever-in-love"></a>
+                        </li>
+
+
+                        <li class="nav-item">
+                            <a class="nav-link" data-bs-toggle="modal" href="#exampleModalToggle" role="button"><img
+                                    src="image/log-out.png" class="img-fluid" alt="Forever-in-love"></a>
+                        </li>
+                    </ul>
+                </div>
+            </header>
+
+            <div class="row">
+                <nav id="navbar_main" class="mobile-offcanvas col-md-3 col-lg-2 d-md-block">
+                    <div class="fixed-sidebar">
+                        <ul class="navbar-nav mt-3">
+                            <li class="nav-item "> <a class="sidebar-link active"
+                                    href="Additional-filter-1.html#">Filter</a>
+                            </li>
+                            <li class="nav-item"><a class="sidebar-link" href="Discover.html">Discover</a>
+                            </li>
+                            <li class="nav-item"><a class="sidebar-link" href="Likes-and-views.html">Likes
+                                    & views</a></li>
+                            <li class="nav-item"><a class="sidebar-link" href="Group-join-avail-req.html">Groups</a>
+                            </li>
+                            <li class="nav-item"><a class="sidebar-link" href="chat-list.html">Messages</a>
+                            </li>
+                            <li class="nav-item"><a class="sidebar-link" href="Settings.html#">Setting</a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+
+                <main class="col-md-9 ms-sm-auto col-lg-10 px-md-4">
+                    <div class="row">
+                        <div class="col-md-10 m-auto">
+
+                            <div class="sing-in-form">
+                                <h3 class="secondary-heading text-center">My profile </h3>
+
+                                <div class="col-md-10 m-auto">
+                                    <div class="row">
+                                        <div class="col-md-6 text-center">
+                                            <div class="wrap-custom-file profile-image profile-1">
+                                                <input type="file" name="image1" id="image1" accept=".jpg, .png">
+                                                <label for="image1">
+                                                    <span>
+                                                        <i class="bi bi-plus-lg"></i>
+                                                    </span>
+                                                </label>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-md-6">
+                                            <div class="row g-2 text-center">
+                                                <div class="col-6">
+                                                    <div class="wrap-custom-file profile-2">
+                                                        <input type="file" name="image2" id="image2"
+                                                            accept=".jpg, .png">
+                                                        <label for="image2">
+                                                            <span>
+                                                                <i class="bi bi-plus-lg"></i>
+                                                            </span>
+                                                        </label>
+                                                    </div>
+                                                </div>
+
+                                                <div class="col-6">
+                                                    <div class="wrap-custom-file">
+                                                        <input type="file" name="image3" id="image3"
+                                                            accept=".jpg, .png">
+                                                        <label for="image3">
+                                                            <span>
+                                                                <i class="bi bi-plus-lg"></i>
+                                                            </span>
+                                                        </label>
+                                                    </div>
+                                                </div>
+
+                                                <div class="col-6">
+                                                    <div class="wrap-custom-file">
+                                                        <input type="file" name="image4" id="image4"
+                                                            accept=".jpg, .png">
+                                                        <label for="image4">
+                                                            <span>
+                                                                <i class="bi bi-plus-lg"></i>
+                                                            </span>
+                                                        </label>
+                                                    </div>
+                                                </div>
+
+                                                <div class="col-6">
+                                                    <div class="wrap-custom-file">
+                                                        <input type="file" name="image5" id="image5"
+                                                            accept=".jpg, .png">
+                                                        <label for="image5">
+                                                            <span>
+                                                                <i class="bi bi-plus-lg"></i>
+                                                            </span>
+                                                        </label>
+                                                    </div>
+                                                </div>
+
+
+                                            </div>
+                                        </div>
+
+
+
+
+
+
+                                        <!-- <div class="col-md-3">
+                                            <div class="wrap-custom-file">
+                                                <input type="file" name="image2" id="image2" accept=".jpg, .png" />
+                                                <label for="image2">
+                                                    <span>
+                                                        <i class="bi bi-plus-lg"></i>
+                                                    </span>
+                                                </label>
+                                            </div>
+
+                                            <div class="wrap-custom-file">
+                                                <input type="file" name="image2" id="image2" accept=".jpg, .png" />
+                                                <label for="image2">
+                                                    <span>
+                                                        <i class="bi bi-plus-lg"></i>
+                                                    </span>
+                                                </label>
+                                            </div>
+                                        </div> -->
+                                    </div>
+
+
+                                    <form>
+                                        <div class="form-fileds">
+                                            <label class="common-label">Name</label>
+                                            <input type="name" class="common-lnput form-control"
+                                                placeholder="Type Your name">
+                                        </div>
+
+
+
+                                        <div class="row">
+                                            <label class="common-label d-block">Date of birth</label>
+                                            <div class="col-md-4">
+                                                <div class="form-fileds">
+                                                    <select name="select" class="common-dropdown">
+                                                        <option value="1">01</option>
+                                                        <option value="1">02</option>
+                                                        <option value="1">03</option>
+                                                        <option value="1">04</option>
+                                                        <option value="1">05</option>
+                                                        <option value="1">06</option>
+                                                        <option value="1">07</option>
+                                                        <option value="1">08</option>
+                                                        <option value="1">09</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+
+                                            <div class="col-md-4">
+                                                <div class="form-fileds">
+                                                    <select name="select" class="common-dropdown">
+                                                        <option value="1">January</option>
+                                                        <option value="1">February</option>
+                                                        <option value="1">March</option>
+                                                        <option value="1">April</option>
+                                                        <option value="1">May</option>
+                                                        <option value="1">June</option>
+                                                        <option value="1">July</option>
+                                                        <option value="1">August</option>
+                                                        <option value="1">September</option>
+                                                        <option value="1">October</option>
+                                                        <option value="1">November</option>
+                                                        <option value="1">December</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+
+
+                                            <div class="col-md-4">
+                                                <div class="form-fileds">
+                                                    <select name="select" class="common-dropdown">
+                                                        <option value="1">2000</option>
+                                                        <option value="1">2001</option>
+                                                        <option value="1">2002</option>
+                                                        <option value="1">2003</option>
+                                                        <option value="1">2004</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                        </div>
+
+
+
+                                        <div class="row ">
+                                            <div class="col-md-6">
+                                                <div class="form-fileds">
+                                                    <label class="common-label d-block">Gender</label>
+                                                    <select name="select" class="common-dropdown">
+                                                        <option value="1">Male</option>
+                                                        <option value="1">Female</option>
+                                                        <option value="1">Other</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+
+                                            <div class="col-md-6">
+                                                <div class="form-fileds">
+                                                    <label class="common-label d-block">Height</label>
+                                                    <select name="select" class="common-dropdown">
+                                                        <option value="1">10cm</option>
+                                                        <option value="1">20cm</option>
+                                                        <option value="1">30cm</option>
+                                                        <option value="1">40cm</option>
+                                                        <option value="1">50cm</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                        </div>
+
+
+
+                                        <div class="row ">
+                                            <div class="col-md-6">
+                                                <div class="form-fileds">
+                                                    <label class="common-label d-block">interested in</label>
+                                                    <select name="select" class="common-dropdown">
+                                                        <option value="1">Male</option>
+                                                        <option value="1">Female</option>
+                                                        <option value="1">Other</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+
+                                            <div class="col-md-6">
+                                                <div class="form-fileds">
+                                                    <label class="common-label d-block">Relationship status</label>
+                                                    <select name="select" class="common-dropdown">
+                                                        <option value="1">Single</option>
+                                                        <option value="1">Separated</option>
+                                                        <option value="1">Widowed</option>
+                                                        <option value="1">It’s complicated</option>
+
+                                                    </select>
+                                                </div>
+                                            </div>
+                                        </div>
+
+
+
+
+                                        <div class="form-fileds">
+                                            <label class="common-label">Looking for</label>
+                                            <input type="name" class="common-lnput form-control" placeholder="Casual">
+                                        </div>
+
+
+
+                                        <div class="form-fileds">
+                                            <label class="common-label">Language</label>
+                                            <input type="name" class="common-lnput form-control" placeholder="English">
+                                        </div>
+
+                                        <div class="form-fileds">
+                                            <label class="common-label">Email</label>
+                                            <input type="email" class="common-lnput form-control"
+                                                placeholder="Type Your email">
+                                        </div>
+
+
+
+                                        <div class="form-fileds">
+                                            <label class="common-label">Education</label>
+                                            <input type="email" class="common-lnput form-control" placeholder="B.E">
+                                        </div>
+
+                                        <div class="form-fileds">
+                                            <label class="common-label d-block">Job Title</label>
+                                            <select name="select" class="common-dropdown">
+                                                <option value="1">Devloper</option>
+                                                <option value="1">Doctore</option>
+                                                <option value="1">Businessman</option>
+                                            </select>
+                                        </div>
+
+
+                                        <div class="form-group">
+                                            <label class="common-label">Bio</label>
+                                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"
+                                                placeholder=""></textarea>
+                                        </div>
+
+
+
+                                        <div class="row p-2">
+                                            <label class="common-label d-block">video</label>
+                                            <div class="col-md-6">
+                                                <div class="wrap-custom-file w-100">
+                                                    <input type="file" name="image0" id="image0" accept=".jpg, .png">
+                                                    <label for="image0">
+                                                        <span>
+                                                            <i class="bi bi-plus-lg"></i>
+                                                        </span>
+                                                    </label>
+                                                </div>
+                                            </div>
+
+
+                                            <div class="col-md-6">
+                                                <div class="wrap-custom-file w-100">
+                                                    <input type="file" name="image0" id="image0" accept=".jpg, .png">
+                                                    <label for="image0">
+                                                        <span>
+                                                            <i class="bi bi-plus-lg"></i>
+                                                        </span>
+                                                    </label>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="row">
+                                            <div class="col-md-12 text-center">
+                                                <button type="button" class="dark-blue-btn">Save</button>
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </main>
+
+
+                <!-- logout Modal -->
+                <div class="modal fade" id="exampleModalToggle" aria-hidden="true"
+                    aria-labelledby="exampleModalToggleLabel" tabindex="-1">
+                    <div class="modal-dialog modal-dialog-centered">
+                        <div class="modal-content text-center ">
+                            <div class="modal-header border-0">
+                                <h5 class="modal-title m-auto" id="exampleModalToggleLabel">
+                                    Come agian</h5>
+                            </div>
+                            <div class="modal-body">
+                                <p>Are You sure you want to Logout?</p>
+                            </div>
+                            <div class="modal-footer border-0">
+
+                                <div class="row">
+                                    <div class="col-md-12 text-center">
+                                        <button type="button" class="dark-blue-btn">Submit</button>
+                                        <button type="button" class="grey-btn">Cancel</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Logout Modal end -->
+
+
+                <!-- Notification Modal-start  -->
+                <div class="profile-model-1">
+                    <div class="modal fade" id="exampleModalToggle-5" aria-labelledby="exampleModalToggleLabel-5"
+                        tabindex="-1" aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered">
+                            <div class="modal-content">
+                                <div class="modal-header d-block text-center">
+                                    <h3 class="modal-title fs-5" id="exampleModalToggleLabel-5">Notifications
+                                    </h3>
+                                </div>
+
+                                <div class="modal-body">
+                                    <div class="row">
+                                        <div class="col">
+                                            <a class="# text-decoration-none" data-bs-toggle="modal"
+                                                href="#exampleModalToggle-5" role="button">
+
+                                            </a>
+                                            <div class="row mb-4">
+                                                <div class="col-3 m-auto">
+                                                    <img src="image/profile-2.png" class="img-fluid" alt="#">
+                                                </div>
+                                                <div class="col-9">
+                                                    <h5>Steav likes your profile</h5>
+                                                    <P>Like your profile.</P>
+                                                </div>
+                                            </div>
+
+                                            <div class="row mb-4">
+                                                <div class="col-3 m-auto">
+                                                    <img src="image/profile-3.png" class="img-fluid" alt="#">
+                                                </div>
+                                                <div class="col-9">
+                                                    <h5>Your profile matched with Shwans </h5>
+                                                    <P>Match your profil.</P>
+                                                </div>
+                                            </div>
+
+                                            <div class="row mb-4">
+                                                <div class="col-3 m-auto">
+                                                    <img src="image/profile-4.png" class="img-fluid" alt="#">
+                                                </div>
+                                                <div class="col-9">
+                                                    <h5>Zendaya</h5>
+                                                    <P>Message: Sounds good to me!</P>
+                                                </div>
+                                            </div>
+
+                                            <div class="row mb-4">
+                                                <div class="col-3 m-auto">
+                                                    <img src="image/update.png" class="img-fluid" alt="#">
+                                                </div>
+                                                <div class="col-9">
+                                                    <h5>Update available</h5>
+                                                    <P>Upadte </P>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Notification Modal-End  -->
+            </div>
+
+        </div>
+    </div>
+    </div>
+
+
+
+
+
+    <!-- Bootstrap 5 jS -->
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+
+
+    <!-- custome js -->
+    <script src="js/main.js"></script>
+    <script>
+        $('input[type="file"]').each(function () {
+            // Refs
+            var $file = $(this),
+                $label = $file.next('label'),
+                $labelText = $label.find('span'),
+                labelDefault = $labelText.text();
+
+            // When a new file is selected
+            $file.on('change', function (event) {
+                var fileName = $file.val().split('\\').pop(),
+                    tmppath = URL.createObjectURL(event.target.files[0]);
+                //Check successfully selection
+                if (fileName) {
+                    $label
+                        .addClass('file-ok')
+                        .css('background', 'url(' + tmppath + ')');
+                    $labelText.text(fileName);
+                } else {
+                    $label.removeClass('file-ok');
+                    $labelText.text(labelDefault);
+                }
+            });
+
+            // End loop of file input elements
+        });
+    </script>
+
+
+
+
+
+
+
+</body>
+
+</html>

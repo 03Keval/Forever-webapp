@@ -1,0 +1,628 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Edit-Profile-2</title>
+
+    <!-- Bootstrap 5 CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/dashboard.css" rel="stylesheet">
+
+
+    <!-- Custome CSS -->
+    <link rel="stylesheet" type="text/css" href="css/custom.css">
+    <link rel="stylesheet" type="text/css" href="css/responsive.css">
+
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+
+</head>
+
+<body>
+    <div id="wrepper" class="forever-bg h-auto pb-4">
+        <span class="screen-darken"></span>
+
+
+        <div class="container">
+            <header class="navbar navbar-dark sticky-top flex-md-nowrap align-item-center">
+                <button data-trigger="navbar_main" class="d-lg-none btn sidebar-btn" type="button">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="col-3">
+                    <div class="sidebar-logo">
+                        <a href="#"><img src="image/Logo.png" alt="Forever-in-love" class="img-fluid"></a>
+                    </div>
+                </div>
+                <div class="col-md-8 col-lg-8 me-auto icons">
+                    <ul id="dynamic" class="nav justify-content-end">
+                        <li class="nav-item"><a href="Edit-Profile.html" class="nav-link"><img src="image/profile.png"
+                                    class="img-fluid" alt="Forever-in-love"></a></li>
+
+                        <li class="nav-item"><a href="Subscription-plan.html" class="nav-link"><img
+                                    src="image/Subscription.png" class="img-fluid" alt="Forever-in-love"></a></li>
+
+                        <li class="nav-item"><a href="Super-Likes.html" class="nav-link"><img
+                                    src="image/super-likes.png" class="img-fluid" alt="Forever-in-love"></a></li>
+
+
+                        <li class="nav-item">
+                            <a class="nav-link" data-bs-toggle="modal" href="#exampleModalToggle-5" role="button"><img
+                                    src="image/notification-bing.png" class="img-fluid" alt="Forever-in-love"></a>
+                        </li>
+
+
+                        <li class="nav-item">
+                            <a class="nav-link" data-bs-toggle="modal" href="#exampleModalToggle" role="button"><img
+                                    src="image/log-out.png" class="img-fluid" alt="Forever-in-love"></a>
+                        </li>
+                    </ul>
+                </div>
+            </header>
+
+            <div class="row">
+                <nav id="navbar_main" class="mobile-offcanvas col-md-3 col-lg-2 d-md-block">
+                    <div class="fixed-sidebar">
+                        <ul class="navbar-nav mt-3">
+                            <li class="nav-item "> <a class="sidebar-link active"
+                                    href="Additional-filter-1.html#">Filter</a>
+                            </li>
+                            <li class="nav-item"><a class="sidebar-link" href="Discover.html">Discover</a>
+                            </li>
+                            <li class="nav-item"><a class="sidebar-link" href="Likes-and-views.html">Likes
+                                    & views</a></li>
+                            <li class="nav-item"><a class="sidebar-link" href="Group-join-avail-req.html">Groups</a>
+                            </li>
+                            <li class="nav-item"><a class="sidebar-link" href="chat-list.html">Messages</a>
+                            </li>
+                            <li class="nav-item"><a class="sidebar-link" href="Settings.html#">Setting</a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+
+                <main class="col-md-9 ms-sm-auto col-lg-10 px-md-4">
+                    <div class="row">
+                        <div class="col-md-10 m-auto">
+
+                            <div class="sing-in-form">
+                                <h3 class="secondary-heading text-center">Additional Options</h3>
+                                <div class="row ps-4 ms-3">
+                                    <h4 class="">Phase-1</h4>
+                                    <label class="common-label d-block">Smoking</label>
+                                </div>
+                                <div class="check-boxes">
+                                    <div class="row text-center">
+                                        <div class="col-sm-4 mb-3">
+                                            <input type="checkbox" class="btn-check cmn-check" id="btncheck1"
+                                                autocomplete="off">
+                                            <label class=" btn check-button" for="btncheck1">Cigarettes</label>
+                                        </div>
+
+                                        <div class="col-sm-4 mb-3">
+                                            <input type="checkbox" class="btn-check cmn-check" id="btncheck2"
+                                                autocomplete="off">
+                                            <label class=" btn check-button" for="btncheck2">Never</label>
+                                        </div>
+
+                                        <div class="col-sm-4 mb-3">
+                                            <input type="checkbox" class="btn-check cmn-check" id="btncheck3"
+                                                autocomplete="off">
+                                            <label class=" btn check-button" for="btncheck3">Cigars</label>
+                                        </div>
+                                    </div>
+
+                                    <div class="row text-center">
+                                        <div class="col-sm-4 mb-3">
+                                            <input type="checkbox" class="btn-check cmn-check" id="btncheck4"
+                                                autocomplete="off">
+                                            <label class=" btn check-button" for="btncheck4">Cannabis</label>
+                                        </div>
+
+                                        <div class="col-sm-4 mb-3">
+                                            <input type="checkbox" class="btn-check cmn-check" id="btncheck5"
+                                                autocomplete="off">
+                                            <label class=" btn check-button" for="btncheck5">Occasionally</label>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                                <!----------- Drink ----------->
+
+                                <div class="row ps-4 ms-3 mt-5">
+                                    <label class="common-label d-block">Drink</label>
+                                </div>
+
+                                <div class="check-boxes">
+                                    <div class="row text-center">
+                                        <div class="col-sm-4 mb-3">
+                                            <input type="checkbox" class="btn-check cmn-check" id="btncheck6"
+                                                autocomplete="off">
+                                            <label class=" btn check-button" for="btncheck6">Yes</label>
+                                        </div>
+
+                                        <div class="col-sm-4 mb-3">
+                                            <input type="checkbox" class="btn-check cmn-check" id="btncheck7"
+                                                autocomplete="off">
+                                            <label class=" btn check-button" for="btncheck7">No</label>
+                                        </div>
+
+                                        <div class="col-sm-4 mb-3">
+                                            <input type="checkbox" class="btn-check cmn-check" id="btncheck8"
+                                                autocomplete="off">
+                                            <label class=" btn  check-button" for="btncheck8">Occasionally</label>
+                                        </div>
+                                    </div>
+
+                                    <div class="row text-center">
+                                        <div class="col-sm-4 mb-3">
+                                            <input type="checkbox" class="btn-check cmn-check" id="btncheck9"
+                                                autocomplete="off">
+                                            <label class=" btn  check-button" for="btncheck9">Socially</label>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!----------- Drugs ----------->
+
+                                <div class="row ps-4 ms-3 mt-5">
+                                    <label class="common-label d-block">Drugs</label>
+                                </div>
+
+                                <div class="check-boxes">
+                                    <div class="row text-center">
+                                        <div class="col-sm-4 mb-3">
+                                            <input type="checkbox" class="btn-check cmn-check" id="btncheck10"
+                                                autocomplete="off">
+                                            <label class=" btn  check-button" for="btncheck10">Yes</label>
+                                        </div>
+
+                                        <div class="col-sm-4 mb-3">
+                                            <input type="checkbox" class="btn-check cmn-check" id="btncheck11"
+                                                autocomplete="off">
+                                            <label class=" btn  check-button" for="btncheck11">No</label>
+                                        </div>
+
+                                        <div class="col-sm-4 mb-3">
+                                            <input type="checkbox" class="btn-check cmn-check" id="btncheck12"
+                                                autocomplete="off">
+                                            <label class=" btn  check-button" for="btncheck12">Recreational</label>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+
+                                <!----------- Phase-2 ----------->
+
+                                <div class="row ps-4 ms-3 mt-5">
+                                    <h4 class="">Phase-2</h4>
+                                    <label class="common-label d-block">Dietary Lifestyle</label>
+                                </div>
+                                <div class="check-boxes">
+                                    <div class="row text-center">
+                                        <div class="col-sm-4 mb-3">
+                                            <input type="checkbox" class="btn-check cmn-check" id="btncheck13"
+                                                autocomplete="off">
+                                            <label class=" btn  check-button" for="btncheck13">Vegan</label>
+                                        </div>
+
+                                        <div class="col-sm-4 mb-3">
+                                            <input type="checkbox" class="btn-check cmn-check" id="btncheck14"
+                                                autocomplete="off">
+                                            <label class=" btn  check-button" for="btncheck14">Vegetarian</label>
+                                        </div>
+
+                                        <div class="col-sm-4 mb-3">
+                                            <input type="checkbox" class="btn-check cmn-check" id="btncheck15"
+                                                autocomplete="off">
+                                            <label class=" btn  check-button" for="btncheck15">Pescatarian</label>
+                                        </div>
+                                    </div>
+
+                                    <div class="row text-center">
+                                        <div class="col-sm-4 mb-3">
+                                            <input type="checkbox" class="btn-check cmn-check" id="btncheck16"
+                                                autocomplete="off">
+                                            <label class=" btn  check-button" for="btncheck16">Omnivore</label>
+                                        </div>
+
+                                        <div class="col-sm-4 mb-3">
+                                            <input type="checkbox" class="btn-check cmn-check" id="btncheck17"
+                                                autocomplete="off">
+                                            <label class=" btn  check-button" for="btncheck17">Other</label>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+
+
+                                <!----------- Interests ----------->
+
+                                <div class="row ps-4 ms-3 mt-5">
+                                    <label class="common-label d-block">Interests </label>
+                                </div>
+
+                                <div class="check-boxes">
+                                    <div class="row text-center">
+                                        <div class="col-sm-4 mb-3">
+                                            <input type="checkbox" class="btn-check cmn-check" id="btncheck18"
+                                                autocomplete="off">
+                                            <label class=" btn check-button" for="btncheck18">Travel</label>
+                                        </div>
+
+                                        <div class="col-sm-4 mb-3">
+                                            <input type="checkbox" class="btn-check cmn-check" id="btncheck19"
+                                                autocomplete="off">
+                                            <label class=" btn check-button" for="btncheck19">Sports</label>
+                                        </div>
+
+                                        <div class="col-sm-4 mb-3">
+                                            <input type="checkbox" class="btn-check cmn-check" id="btncheck20"
+                                                autocomplete="off">
+                                            <label class=" btn check-button" for="btncheck20">Writing</label>
+                                        </div>
+                                    </div>
+
+                                    <div class="row text-center">
+                                        <div class="col-sm-4 mb-3">
+                                            <input type="checkbox" class="btn-check cmn-check" id="btncheck21"
+                                                autocomplete="off">
+                                            <label class=" btn  check-button" for="btncheck21">Designing</label>
+                                        </div>
+
+                                        <div class="col-sm-4 mb-3">
+                                            <input type="checkbox" class="btn-check cmn-check" id="btncheck22"
+                                                autocomplete="off">
+                                            <label class=" btn  check-button" for="btncheck22">Computing</label>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+
+                                <!----------- Pets ----------->
+
+                                <div class="row ps-4 ms-3 mt-5">
+                                    <label class="common-label d-block">Pets</label>
+                                </div>
+
+                                <div class="check-boxes">
+                                    <div class="row text-center">
+                                        <div class="col-sm-4 mb-3">
+                                            <input type="checkbox" class="btn-check cmn-check" id="btncheck23"
+                                                autocomplete="off">
+                                            <label class=" btn  check-button" for="btncheck23">Cats</label>
+                                        </div>
+
+                                        <div class="col-sm-4 mb-3">
+                                            <input type="checkbox" class="btn-check cmn-check" id="btncheck24"
+                                                autocomplete="off">
+                                            <label class=" btn  check-button" for="btncheck24">Dogs</label>
+                                        </div>
+
+                                        <div class="col-sm-4 mb-3">
+                                            <input type="checkbox" class="btn-check cmn-check" id="btncheck25"
+                                                autocomplete="off">
+                                            <label class=" btn  check-button" for="btncheck25">Other</label>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+
+                                <!----------- Horoscope ----------->
+
+                                <div class="row ps-4 ms-3 mt-5">
+                                    <label class="common-label d-block">Horoscope</label>
+                                </div>
+
+                                <div class="check-boxes">
+                                    <div class="row text-center">
+                                        <div class="col-sm-4 mb-3">
+                                            <input type="checkbox" class="btn-check cmn-check" id="btncheck26"
+                                                autocomplete="off">
+                                            <label class=" btn  check-button" for="btncheck26">Aries</label>
+                                        </div>
+
+                                        <div class="col-sm-4 mb-3">
+                                            <input type="checkbox" class="btn-check cmn-check" id="btncheck27"
+                                                autocomplete="off">
+                                            <label class=" btn  check-button" for="btncheck27">Taurs</label>
+                                        </div>
+
+                                        <div class="col-sm-4 mb-3">
+                                            <input type="checkbox" class="btn-check cmn-check" id="btncheck28"
+                                                autocomplete="off">
+                                            <label class=" btn  check-button" for="btncheck28">Gemini</label>
+                                        </div>
+                                    </div>
+
+                                    <div class="row text-center">
+                                        <div class="col-sm-4 mb-3">
+                                            <input type="checkbox" class="btn-check cmn-check" id="btncheck29"
+                                                autocomplete="off">
+                                            <label class=" btn  check-button" for="btncheck29">Cancer</label>
+                                        </div>
+
+                                        <div class="col-sm-4 mb-3">
+                                            <input type="checkbox" class="btn-check cmn-check" id="btncheck30"
+                                                autocomplete="off">
+                                            <label class=" btn  check-button" for="btncheck30">Capricorns</label>
+                                        </div>
+
+                                        <div class="col-sm-4 mb-3">
+                                            <input type="checkbox" class="btn-check cmn-check" id="btncheck31"
+                                                autocomplete="off">
+                                            <label class=" btn  check-button" for="btncheck31">Sagittarius</label>
+                                        </div>
+                                    </div>
+
+
+                                    <div class="row text-center">
+                                        <div class="col-sm-4 mb-3">
+                                            <input type="checkbox" class="btn-check cmn-check" id="btncheck32"
+                                                autocomplete="off">
+                                            <label class=" btn  check-button" for="btncheck32">Aquarius</label>
+                                        </div>
+
+                                        <div class="col-sm-4 mb-3">
+                                            <input type="checkbox" class="btn-check cmn-check" id="btncheck33"
+                                                autocomplete="off">
+                                            <label class=" btn  check-button" for="btncheck33">Leo</label>
+                                        </div>
+
+                                        <div class="col-sm-4 mb-3">
+                                            <input type="checkbox" class="btn-check cmn-check" id="btncheck34"
+                                                autocomplete="off">
+                                            <label class=" btn  check-button" for="btncheck34">Virgo</label>
+                                        </div>
+                                    </div>
+
+                                    <div class="row text-center">
+                                        <div class="col-sm-4 mb-3">
+                                            <input type="checkbox" class="btn-check cmn-check" id="btncheck35"
+                                                autocomplete="off">
+                                            <label class=" btn  check-button" for="btncheck35">Libra</label>
+                                        </div>
+
+                                        <div class="col-sm-4 mb-3">
+                                            <input type="checkbox" class="btn-check cmn-check" id="btncheck36"
+                                                autocomplete="off">
+                                            <label class=" btn  check-button" for="btncheck36">Scorpio</label>
+                                        </div>
+
+                                        <div class="col-sm-4 mb-3">
+                                            <input type="checkbox" class="btn-check cmn-check" id="btncheck37"
+                                                autocomplete="off">
+                                            <label class=" btn  check-button" for="btncheck37">Pisces</label>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+
+                                <!----------- Hobbies ----------->
+
+
+                                <div class="row ps-4 ms-3 mt-5">
+                                    <label class="common-label d-block">Hobbies</label>
+                                </div>
+
+                                <div class="check-boxes">
+                                    <div class="row text-center">
+                                        <div class="col-sm-4 mb-3">
+                                            <input type="checkbox" class="btn-check cmn-check" id="btncheck38"
+                                                autocomplete="off">
+                                            <label class=" btn  check-button" for="btncheck38">Cricket</label>
+                                        </div>
+
+                                        <div class="col-sm-4 mb-3">
+                                            <input type="checkbox" class="btn-check cmn-check" id="btncheck39"
+                                                autocomplete="off">
+                                            <label class=" btn  check-button" for="btncheck39">Movies</label>
+                                        </div>
+
+                                        <div class="col-sm-4 mb-3">
+                                            <input type="checkbox" class="btn-check cmn-check" id="btncheck40"
+                                                autocomplete="off">
+                                            <label class=" btn  check-button" for="btncheck40">Cooking</label>
+                                        </div>
+                                    </div>
+
+                                    <div class="row text-center">
+                                        <div class="col-sm-4 mb-3">
+                                            <input type="checkbox" class="btn-check cmn-check" id="btncheck41"
+                                                autocomplete="off">
+                                            <label class=" btn  check-button" for="btncheck41">Cooking</label>
+                                        </div>
+
+                                        <div class="col-sm-4 mb-3">
+                                            <input type="checkbox" class="btn-check cmn-check" id="btncheck42"
+                                                autocomplete="off">
+                                            <label class=" btn  check-button" for="btncheck42">Cycling</label>
+                                        </div>
+
+                                        <div class="col-sm-4 mb-3">
+                                            <input type="checkbox" class="btn-check cmn-check" id="btncheck43"
+                                                autocomplete="off">
+                                            <label class=" btn  check-button" for="btncheck43">collecting</label>
+                                        </div>
+                                    </div>
+
+
+                                    <div class="row text-center">
+                                        <div class="col-sm-4 mb-3">
+                                            <input type="checkbox" class="btn-check cmn-check" id="btncheck44"
+                                                autocomplete="off">
+                                            <label class=" btn  check-button" for="btncheck44">Acting</label>
+                                        </div>
+
+                                        <div class="col-sm-4 mb-3">
+                                            <input type="checkbox" class="btn-check cmn-check" id="btncheck45"
+                                                autocomplete="off">
+                                            <label class=" btn  check-button" for="btncheck45">Cooking</label>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="row">
+                                    <div class="col-md-12 text-center">
+                                        <button type="button" class="dark-blue-btn">Continue</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </main>
+
+                <!-- logout Modal -->
+                <div class="modal fade" id="exampleModalToggle" aria-hidden="true"
+                    aria-labelledby="exampleModalToggleLabel" tabindex="-1">
+                    <div class="modal-dialog modal-dialog-centered">
+                        <div class="modal-content text-center ">
+                            <div class="modal-header border-0">
+                                <h5 class="modal-title m-auto" id="exampleModalToggleLabel">
+                                    Come agian</h5>
+                            </div>
+                            <div class="modal-body">
+                                <p>Are You sure you want to Logout?</p>
+                            </div>
+                            <div class="modal-footer border-0">
+
+                                <div class="row">
+                                    <div class="col-md-12 text-center">
+                                        <button type="button" class="dark-blue-btn">Submit</button>
+                                        <button type="button" class="grey-btn">Cancel</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Logout Modal end -->
+
+
+                <!-- Notification Modal-start  -->
+                <div class="profile-model-1">
+                    <div class="modal fade" id="exampleModalToggle-5" aria-labelledby="exampleModalToggleLabel-5"
+                        tabindex="-1" aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered">
+                            <div class="modal-content">
+                                <div class="modal-header d-block text-center">
+                                    <h3 class="modal-title fs-5" id="exampleModalToggleLabel-5">Notifications
+                                    </h3>
+                                </div>
+
+                                <div class="modal-body">
+                                    <div class="row">
+                                        <div class="col">
+                                            <a class="# text-decoration-none" data-bs-toggle="modal"
+                                                href="#exampleModalToggle-5" role="button">
+
+                                            </a>
+                                            <div class="row mb-4">
+                                                <div class="col-3 m-auto">
+                                                    <img src="image/profile-2.png" class="img-fluid" alt="#">
+                                                </div>
+                                                <div class="col-9">
+                                                    <h5>Steav likes your profile</h5>
+                                                    <P>Like your profile.</P>
+                                                </div>
+                                            </div>
+
+                                            <div class="row mb-4">
+                                                <div class="col-3 m-auto">
+                                                    <img src="image/profile-3.png" class="img-fluid" alt="#">
+                                                </div>
+                                                <div class="col-9">
+                                                    <h5>Your profile matched with Shwans </h5>
+                                                    <P>Match your profil.</P>
+                                                </div>
+                                            </div>
+
+                                            <div class="row mb-4">
+                                                <div class="col-3 m-auto">
+                                                    <img src="image/profile-4.png" class="img-fluid" alt="#">
+                                                </div>
+                                                <div class="col-9">
+                                                    <h5>Zendaya</h5>
+                                                    <P>Message: Sounds good to me!</P>
+                                                </div>
+                                            </div>
+
+                                            <div class="row mb-4">
+                                                <div class="col-3 m-auto">
+                                                    <img src="image/update.png" class="img-fluid" alt="#">
+                                                </div>
+                                                <div class="col-9">
+                                                    <h5>Update available</h5>
+                                                    <P>Upadte </P>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Notification Modal-End  -->
+            </div>
+
+        </div>
+    </div>
+    </div>
+
+
+
+
+
+    <!-- Bootstrap 5 jS -->
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+
+
+    <!-- custome js -->
+    <script src="js/main.js"></script>
+    <script>
+        $('input[type="file"]').each(function () {
+            // Refs
+            var $file = $(this),
+                $label = $file.next('label'),
+                $labelText = $label.find('span'),
+                labelDefault = $labelText.text();
+
+            // When a new file is selected
+            $file.on('change', function (event) {
+                var fileName = $file.val().split('\\').pop(),
+                    tmppath = URL.createObjectURL(event.target.files[0]);
+                //Check successfully selection
+                if (fileName) {
+                    $label
+                        .addClass('file-ok')
+                        .css('background', 'url(' + tmppath + ')');
+                    $labelText.text(fileName);
+                } else {
+                    $label.removeClass('file-ok');
+                    $labelText.text(labelDefault);
+                }
+            });
+
+            // End loop of file input elements
+        });
+    </script>
+
+
+
+
+
+
+
+</body>
+
+</html>
